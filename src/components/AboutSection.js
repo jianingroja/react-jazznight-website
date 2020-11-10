@@ -50,7 +50,15 @@ const AboutSection = () => {
         <motion.button variants={fade}>Contact us</motion.button>
       </Description>
       <Image>
-        <motion.img variants={photoAnim} src={home1} alt="guy with a camera" />
+        <motion.img
+          variants={photoAnim}
+          //*if we don't want to want the stagger
+          // initial="hidden"
+          // animate="show"
+          //*if we don't want to want the stagger
+          src={home1}
+          alt="guy with a camera"
+        />
       </Image>
       <Wave></Wave>
     </About>
