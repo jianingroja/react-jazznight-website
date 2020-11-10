@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body{
-    background-color:black
+    background-color:black;
 }
 
 button{
@@ -57,6 +57,7 @@ p{
     color:#ccc;
     font-size:1.4rem;
     line-height:150%;
+    font-weight:lighter;
 }
 `;
 
