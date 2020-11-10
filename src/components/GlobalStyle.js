@@ -30,6 +30,10 @@ button{
     }
 }
 
+h1{
+    color:whitesmoke;
+}
+
 h2{
     font-weight:lighter;
     font-size:4rem;
