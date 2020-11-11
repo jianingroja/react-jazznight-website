@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
+
       {/* We want nav to be here forever */}
       <Nav />
       {/* We want nav to be here forever */}
